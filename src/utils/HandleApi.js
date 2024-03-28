@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "https://todoserver-ykwe.onrender.com"; 
+const baseUrl = "https://jorkehblizz.onrender.com"; 
 
 const getAllTodo = (setToDo) => {
     axios
@@ -45,4 +45,4 @@ const deleteToDo = (_id, setToDo) => {
     .catch((err) => console.log(err))
 }
 
-export {getAllTodo, addToDo, updateTo
+export {getAllTodo, addToDo, updateTodo, deleteToDo}
